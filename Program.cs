@@ -38,7 +38,7 @@ namespace Binary_Search
             needle_index = -1;
             while(left <= right && found == false)
             {
-                middle =(int)((left + right) / 2);
+                middle = (int)((left + right) / 2);
 
                 if(needle < haystack[middle])
                 {
